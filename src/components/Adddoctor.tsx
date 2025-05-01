@@ -14,8 +14,9 @@ import { Button } from "@/components/ui/button";
 import { addDoctor } from "@/actions/addDoctor"; // server action
 import { Label } from "@/components/ui/label";
 import { toast } from "sonner";
+import { cn } from "@/lib/utils";
 
-export default function AddDoctorDialog() {
+export default function AddDoctorDialog({show}:{show?: boolean}) {
   const [formData, setFormData] = useState({
     name: "Dr. John Doe",
     experience_years: 5, // changed to number
@@ -61,8 +62,8 @@ export default function AddDoctorDialog() {
 
   return (
     <Dialog>
-      <DialogTrigger asChild>
-        <Button>Add Doctor</Button>
+      <DialogTrigger  asChild>
+        <Button className=cn(show&&"hidden")>Add Doctor</Button>
       </DialogTrigger>
       <DialogContent>
         <DialogHeader>

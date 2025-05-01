@@ -1,4 +1,3 @@
-
 # 🩺 Doctor Listing Page – Internship Assignment
 
 ## Project Overview
@@ -9,12 +8,12 @@ This project is a destination page clone built using **Next.js** that displays a
 
 ## 🔧 Technologies Used
 
-| Layer     | Tech Stack                        |
-|-----------|-----------------------------------|
-| Frontend  | Next.js (React + TypeScript)      |
-| Styling   | Tailwind CSS                      |
-| Backend   | Node.js + Express + MongoDB       |
-| APIs      | REST (`add-doctor`, `list-doctor-with-filter`) |
+| Layer    | Tech Stack                                     |
+| -------- | ---------------------------------------------- |
+| Frontend | Next.js (React + TypeScript)                   |
+| Styling  | Tailwind CSS                                   |
+| Backend  | Node.js + Express + MongoDB                    |
+| APIs     | REST (`add-doctor`, `list-doctor-with-filter`) |
 
 ---
 
@@ -71,8 +70,8 @@ MONGO_URI=mongodb://localhost:27017/doctorDB
 1. **Clone the repository:**
 
 ```bash
-git clone https://github.com/your-username/doctor-listing-clone.git
-cd doctor-listing-clone
+git clone https://github.com/arslaan7861/apollo-assignment.git
+cd apollo-assignment
 ```
 
 2. **Install dependencies:**
