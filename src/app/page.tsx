@@ -15,7 +15,7 @@ export default async function DoctorsPage({
   if (doctors.length === 0)
     return (
       <main className="w-full h-full flex items-center justify-center">
-        <div className="text-center text-gray-500 py-10">
+        <div className="text-center text-gray-500 py-10 text-lg">
           No doctors found matching your filters.
         </div>
       </main>
