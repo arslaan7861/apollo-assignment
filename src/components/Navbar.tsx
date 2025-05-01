@@ -45,7 +45,7 @@ function Navbar() {
           />
         </Form>
         <div className="flex items-center gap-4">
-          <Button asChild className="hidden sm:flex">
+          <Button asChild className="hidden md:flex">
             <AddDoctorDialog />
           </Button>
           <Button variant={"outline"} className="text-primary border-primary">
